@@ -1,0 +1,6 @@
+{
+    "operating_system" : {
+        "win_os": "C:\\Windows\\System32\\drivers\\etc\\hosts",
+        "linux_n_mac_os": "/etc/hosts"
+    }
+}
