@@ -3,5 +3,5 @@
         "win_os": "C:\\Windows\\System32\\drivers\\etc\\hosts",
         "linux_n_mac_os": "/etc/hosts"
     },
-    "blocking_website" : ["facebook.com", "wwww.facebook.com"]
+    "blocking_website" : ["facebook.com", "www.facebook.com"]
 }
