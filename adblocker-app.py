@@ -20,7 +20,7 @@ blocked_website = app_setting_file["blocking_website"]
 
 while True:
     # 5 minutes
-    time.sleep(5)
+    time.sleep(300)
     
     # working hours 8 am to 6 pm
     if dt.now().hour >= 8 and dt.now().hour <= 18:
@@ -35,7 +35,7 @@ while True:
                     print("Blocking "+ website + " now....")
                     file.write(redirect_v4 + " " + website + "\n")
                     file.write(redirect_v6 + " " + website + "\n")
-                    time.sleep(1)
+                    time.sleep(2)
 
 
     else:
